@@ -1,0 +1,61 @@
+.about{
+    width: 100%;
+    min-height:100vh ;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about .title{
+    color:#5096c7;
+}
+.about .avatar-content{
+
+    align-self: flex-end;
+}
+.about .avatar{
+    width: 150%;
+    transform:translate(-20%)
+    
+}
+.about .title-info{
+    color:rgb(184, 20, 20);
+    text-shadow: 0 0 5px rgb(168, 37, 37);
+    font-size: 18px;
+
+}
+.about .info{
+    width: 22%;
+    padding:12px 12px 0 12px;
+    background-color: rgba(0, 0, 0, .4);
+    border-left: 15px solid rgb(119, 37, 37);
+    border-top: 1px solid rgb(119, 37, 37);
+    border-bottom: 1px solid rgb(119, 37, 37);
+    border-bottom-left-radius: 12px;
+
+}
+.about .about-info{
+    color:#5096c7;
+    
+}
+.about .att-info{
+    display:flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-around;
+    
+}
+.about .finger-print{
+    width: 60px;
+    height: auto;
+    position:absolute;
+    transform:translate(250%, -150%);
+}
+.about p{
+    font-size: 18px;
+}

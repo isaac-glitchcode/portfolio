@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+@import url("./components/main/css/main.css"); 
+@import url("./components/main/css/menu.css"); 
+@import url("./components/main/css/preview.css"); 
+@import url("./components/loading/css/loading.css"); 
+@import url("./components/about/css/about.css"); 
+body{
+  background-image: url('https://i.pinimg.com/originals/5f/17/05/5f1705252f330faeba2ea4d30e06f7cf.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "tech";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link{
+  color: inherit;
+  text-decoration: inherit;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@font-face {
+  font-family: "tech";
+  src: url("./fonts/TECHNO CAPTURE.ttf");
+} 
