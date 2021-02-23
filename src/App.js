@@ -50,7 +50,6 @@ function App() {
         break
       default:
         setImage(About)
-
     }
   }
   const handler = () =>{
@@ -66,14 +65,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-
             {
               show ? <Load logo = {Logo} handler = {handler} style={style}/>
               :
               <Main menu = {menu} handle={handleOption} option={option} img={image} />
-
-             }
-            
+            }
           </Route>
           <Route path="/about">
             <AboutPage avatar={Avatar} fp={FingerPrint}/>

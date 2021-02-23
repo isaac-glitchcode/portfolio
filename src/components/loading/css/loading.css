@@ -4,9 +4,9 @@
     position:absolute;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('https://wallpaperaccess.com/full/3487539.jpg');
+    justify-content: space-around;
+    align-items: center; 
+    background-image: url('https://images7.alphacoders.com/316/thumb-1920-316707.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,29 +16,67 @@
     position:absolute;
     width: 100%;
     min-height:100vh ;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
+}
+.content-load .logo{
+    position:relative;
+    max-width: 50%;
+    margin:auto 0 auto 0;
+    z-index: 1;
+}
+
+.content-load .progress:before{
+    content:'';
+    width: 80%;
+    height: 5px;
+    margin: 0px auto 12px 0%;
+    position: absolute;
+    background: rgb(114, 114, 114);
+    opacity:0.5;
+} 
+
+.content-load .progress{
+    width: 80%;
+    height: 5px;
+    margin: 0% auto 12px 10%;
+    background: #33ffff;
+    z-index: 1;
+    box-shadow: 0 0 12px #33ffff;
+    animation: progress 2s linear;
+}
+
+@keyframes progress{
+    0%{
+        background: rgb(255, 115, 0);
+        width: 0;
+    }
+    30%{
+        background: rgb(94, 255, 0);
+        width: 0;
+    }
 }
 
 .button{
     margin:auto 0 auto 0;
+    position:relative;
     opacity:0;
     width:10%;
     max-height:10em;
     background-color: #0a0d11;
-    border:1.3px solid red;
+    border:1.3px solid #33ffff;
     color:#5096c7;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
     border-bottom-left-radius: 15px;
-    /* font-family: "Roboto";  */
+    
     z-index: 1; 
     animation: button 4s linear;
     transition:all 0.4s linear;
     outline:none
 } 
 .button:hover{
-    background-color: rgba(224, 26, 26, 0.432);
+    background-color: rgba(153, 51, 102, 0.432);
     opacity:0.8;
     color:#5096c7;
     transition:all 0.4s linear;
@@ -49,47 +87,12 @@
     outline:none
 }
 
-.content-load .logo{
-    position:fixed;
-    max-width: 25%;
-    padding-top:8%;
-    margin:auto 0 auto 0;
-    z-index: 1;
-}
-
-.content-load .progress:before{
-    content:'';
-    width: 80%;
-    height: 5px;
-    margin: 0px auto 12px -0%;
-    position: absolute;
-    background: rgb(114, 114, 114);
-    opacity:0.5;   
-} 
-
-.content-load .progress{
-    
-    width: 80%;
-    height: 5px;
-    margin: 22% auto 12px 10%;
-    background: rgb(243, 33, 33);
-    z-index: 1;
-    animation: progress 2s linear;
-    box-shadow: 0 0 12px red;
-} 
-
-@keyframes progress{
-    0%{
-        background: rgb(255, 115, 0);
-        width: 0;
-    }
-}
-@keyframes button{
+/* @keyframes button{
    
     0%,50%{
 
         max-height: 0;
         transition: max-height 8s;
     }
-}
+}  */
 
