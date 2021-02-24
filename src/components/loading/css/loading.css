@@ -103,7 +103,7 @@
 @media screen and (max-width:730px){
     .content-load .logo{
         max-width: 20.25rem;
-        margin:2em 0 1.125rem 0;
+        margin:4em 0 1.125rem 0;
     }
     .content-load .progress:before{
         margin: 0px auto 0.15em 0px;
