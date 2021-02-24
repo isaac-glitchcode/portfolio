@@ -100,9 +100,19 @@
     }
 } 
 
-@media screen and (min-width:320px){
+@media screen and (max-width:730px){
     .content-load .logo{
         max-width: 8.25rem;
         margin:2em 0 4.125rem 0;
     }
+    .content-load .progress:before{
+        margin: 0px auto 0.15em 0px;
+    } 
+    
+    .content-load .progress{
+        margin: 0px auto 0.15em 10%;
+    }
+    .button{
+        margin:1.75rem 0 auto 0;
+    } 
 }
