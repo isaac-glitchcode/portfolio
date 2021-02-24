@@ -1,16 +1,11 @@
 import React from 'react'
 
-
 export default function Loading(props){
     
     return(
         <section className="content-load">
-            
-           
             <img className="logo" src={props.logo} alt="Bg"/>
-            
             <div className="progress"></div>
-            
             <input 
                 className="button" 
                 type="button" 
@@ -18,7 +13,6 @@ export default function Loading(props){
                 style={props.style}
                 value="START"
             />
-        
         </section>
     );
 }
