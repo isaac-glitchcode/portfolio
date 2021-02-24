@@ -11,7 +11,7 @@ export default function Main(props){
                 <div className="row">
                     <header className="col-sm-12">
                         <nav className="main">
-                            <Menu menu = {props.menu} handle={props.handle}/>
+                            <Menu logo = {props.logo} menu = {props.menu} handle={props.handle}/>
                         </nav> 
                     </header>
                 </div>

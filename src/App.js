@@ -25,7 +25,7 @@ function App() {
   );
   const [option, setOption] = useState("");
   const [image, setImage] = useState("")
-  const [show, setHidde] = useState(1);
+  const [show, setHidde] = useState(0);
   // const [page] = useState({AboutPage});
   const [style, setStyle] = React.useState({});
 
@@ -68,7 +68,7 @@ function App() {
             {
               show ? <Load logo = {Logo} handler = {handler} style={style}/>
               :
-              <Main menu = {menu} handle={handleOption} option={option} img={image} />
+              <Main logo = {Logo} menu = {menu} handle={handleOption} option={option} img={image} />
             }
           </Route>
           <Route path="/about">

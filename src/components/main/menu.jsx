@@ -13,7 +13,7 @@ export default function Menu(props){
             <div className="content-logo">
                 <div className="logo">
                     <img 
-                    src="https://cdn.shopify.com/s/files/1/1522/6166/files/checkout_logo_9_410x.png?v=1517030560"
+                    src={props.logo}
                     alt="logo"
                     />
                 </div>

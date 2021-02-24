@@ -9,9 +9,8 @@ export default function Preview(props){
             <div className="content-preview">
                 <h1 className="title">{props.option_selected}</h1>
                 {props.option_selected===""?<div></div>:
-                    <div>
+                    <div className="card-1">
                         <div className="content-img">
-                            <div className="shadow"></div>
                             <img 
                             src={props.img}
                             alt={props.option_selected}
