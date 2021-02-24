@@ -28,8 +28,8 @@
 .content-load .progress:before{
     content:'';
     width: 80%;
-    height: 5px;
-    margin: 0px auto 12px 0%;
+    height: 0.3125em;
+    margin: 0px auto 0.75em 0%;
     position: absolute;
     background: rgb(114, 114, 114);
     opacity:0.5;
@@ -37,11 +37,11 @@
 
 .content-load .progress{
     width: 80%;
-    height: 5px;
-    margin: 0% auto 12px 10%;
+    height: 0.3125em;
+    margin: 0% auto 0.75em 10%;
     background: #33ffff;
     z-index: 1;
-    box-shadow: 0 0 12px #33ffff;
+    box-shadow: 0 0 0.75rem #33ffff;
     animation: progress 2s linear;
 }
 
@@ -60,15 +60,15 @@
     margin:auto 0 auto 0;
     position:relative;
     opacity:0;
-    width:10%;
+    width:10rem;
     max-height:10em;
     background-color: #0a0d11;
     border:1.3px solid #33ffff;
     color:#5096c7;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    letter-spacing: 2px;
-    border-bottom-left-radius: 15px;
+    letter-spacing: 0.125rem;
+    border-bottom-left-radius: 0.9375rem;
     
     z-index: 1; 
     animation: button 4s linear;
