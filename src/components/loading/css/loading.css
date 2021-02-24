@@ -21,7 +21,7 @@
 .content-load .logo{
     position:relative;
     max-width: 31.25rem;
-    margin:auto 0 3.125rem 0;
+    margin:auto 0 4.125rem 0;
     z-index: 1;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .button{
-    margin:auto 0 auto 0;
+    margin:5.75rem 0 auto 0;
     position:relative;
     opacity:0;
     width:10rem;
