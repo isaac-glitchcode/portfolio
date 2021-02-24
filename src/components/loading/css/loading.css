@@ -1,7 +1,7 @@
 .content-load{
     width: 100%;
-    min-height:100vh ;
-    position:absolute;
+    min-height:100vh;
+    position:fixed;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,12 +16,12 @@
     position:absolute;
     width: 100%;
     min-height:100vh ;
-    background: rgba(0,0,0,0.8);
-}
+    background: rgba(0,0,0,0.8); 
+} 
 .content-load .logo{
     position:relative;
     max-width: 31.25rem;
-    margin:auto 0 auto 0;
+    margin:auto 0 3.125rem 0;
     z-index: 1;
 }
 
