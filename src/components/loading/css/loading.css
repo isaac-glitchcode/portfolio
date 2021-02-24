@@ -20,7 +20,7 @@
 }
 .content-load .logo{
     position:relative;
-    max-width: 50%;
+    max-width: 31.25rem;
     margin:auto 0 auto 0;
     z-index: 1;
 }
@@ -29,7 +29,7 @@
     content:'';
     width: 80%;
     height: 0.3125em;
-    margin: 0px auto 0.75em 0%;
+    margin: 0px auto 0.75em 0px;
     position: absolute;
     background: rgb(114, 114, 114);
     opacity:0.5;
@@ -38,7 +38,7 @@
 .content-load .progress{
     width: 80%;
     height: 0.3125em;
-    margin: 0% auto 0.75em 10%;
+    margin: 0px auto 0.75em 10%;
     background: #33ffff;
     z-index: 1;
     box-shadow: 0 0 0.75rem #33ffff;
