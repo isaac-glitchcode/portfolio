@@ -6,17 +6,20 @@ export default function Main(props){
 
     return (
         
-        <div className="container">
-            <div className="row">
-                <header className="col-sm-12">
-                    <nav className="main">
-                        <Menu menu = {props.menu} handle={props.handle}/>
+        <div className="main-menu">
+            <div className="container">
+                <div className="row">
+                    <header className="col-sm-12">
+                        <nav className="main">
+                            <Menu menu = {props.menu} handle={props.handle}/>
+                        </nav> 
+                    </header>
+                </div>
+                <div className="row">
+                    <section className="preview-content">
                         <Preview option_selected={props.option} img={props.img}/>
-                    </nav> 
-                </header>
-            </div>
-            <div class>
-
+                    </section>
+                </div>
             </div>
         </div>
     );

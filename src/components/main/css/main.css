@@ -1,6 +1,10 @@
-.main{
-  display:grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  /* background: red; */
+.main-menu{
+  background-image: url('https://i.pinimg.com/originals/5f/17/05/5f1705252f330faeba2ea4d30e06f7cf.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  
 }
