@@ -69,7 +69,7 @@
     font-weight: bold;
     letter-spacing: 0.125rem;
     border-bottom-left-radius: 0.9375rem;
-    
+    font-family: "tech";git
     z-index: 1; 
     animation: button 4s linear;
     transition:all 0.4s linear;
