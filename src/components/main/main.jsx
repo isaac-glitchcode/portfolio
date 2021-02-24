@@ -15,6 +15,9 @@ export default function Main(props){
                     </nav> 
                 </header>
             </div>
+            <div class>
+
+            </div>
         </div>
     );
   
