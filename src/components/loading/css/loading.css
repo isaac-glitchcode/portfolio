@@ -73,7 +73,8 @@
     z-index: 1; 
     animation: button 4s linear;
     transition:all 0.4s linear;
-    outline:none
+    outline:none;
+    cursor:pointer;
 } 
 .button:hover{
     background-color: rgba(153, 51, 102, 0.432);
@@ -87,12 +88,12 @@
     outline:none
 }
 
-/* @keyframes button{
+@keyframes button{
    
     0%,50%{
 
         max-height: 0;
         transition: max-height 8s;
     }
-}  */
+} 
 
