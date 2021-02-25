@@ -6,7 +6,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    background-image: url('https://hddesktopwallpapers.in/wp-content/uploads/2015/09/night-forest-wallpaper-cool.jpg');
+    background-image: url('../img/bg.jpg');
+    /* background-image: url('https://hddesktopwallpapers.in/wp-content/uploads/2015/09/night-forest-wallpaper-cool.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }

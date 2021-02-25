@@ -11,13 +11,15 @@
 }
 
 .preview .title{
-    color:#33ffff
+    color:#000;
+    font-family: "damn";
+
 }
 
 .content-img{
     position:relative;
-    border: 1px solid #33ffff;
-    box-shadow: 2px 0px 12px #33ffff;
+    /* border: 1px solid #33ffff;
+    box-shadow: 2px 0px 12px #33ffff; */
 }
 
 .prev-img{
@@ -35,8 +37,9 @@
     width:25%;
     height:auto;
     background-color: #0a0d11;
-    border:1.3px solid #33ffff;
-    color:#5096c7;
+    border:1.3px solid red;
+    color:#fff;
+    font-family: "damn";
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -45,9 +48,9 @@
 }
 
 .content-options>.btn-prev:hover{
-    background-color: rgba(153, 51, 102, 0.432);
+    background-color: rgba(48, 47, 46, 0.432);
     opacity:0.8;
-    color:#5096c7;
+    color:#fff;
     transition:all 0.1s linear;
 }
 

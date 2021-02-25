@@ -1,5 +1,6 @@
 .main-menu{
-  background-image: url('https://i.pinimg.com/originals/5f/17/05/5f1705252f330faeba2ea4d30e06f7cf.gif');
+  /* background-image: url('https://i.pinimg.com/originals/5f/17/05/5f1705252f330faeba2ea4d30e06f7cf.gif'); */
+  background-image: url('../img/background.jpg');
   /* background-color: black ; */
   background-repeat: no-repeat;
   background-size: cover;
