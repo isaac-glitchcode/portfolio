@@ -16,7 +16,7 @@
     position:absolute;
     width: 100%;
     min-height:100vh ;
-    background: rgba(0,0,0,0.7); 
+    background: rgba(0,0,0,0.4); 
 } 
 
 .content-load .logo{
@@ -124,14 +124,14 @@
 @media screen and (max-width:730px){
     .content-load .logo{
         max-width: 20.25rem;
-        margin:9em 0 1.125rem 0;
+        margin:15em 0 3.125rem 0;
     }
     .content-load .progress:before{
-        margin: 0px auto 0.15em 0px;
+        margin: 0px auto 3.15em 0px;
     } 
     
     .content-load .progress{
-        margin: 0px auto 0.15em 10%;
+        margin: 0px auto 3.15em 10%;
     }
     .button{
         margin:1.75rem 0 auto 0;
