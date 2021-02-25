@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2 1fr);
     border: 2px solid rgb(153, 51, 102);
-    box-shadow: 0 0 15px rgb(153, 51, 102);
+    box-shadow: 0 0 15px rgbem(153, 51, 102);
     padding: 0 100px 0 0;
 }
 .content-logo{
@@ -32,7 +32,7 @@
     border-radius: 1px 1px 20px 1px;
     border:2px solid transparent;
     margin:0 0 12px 20px; 
-    transition: all .3s
+    transition: all .1s ease;
 }
 .menu .items >div>p{
     margin:auto;
@@ -45,7 +45,7 @@
     border-radius: 1px 1px 20px 1px;
     border:2px solid #5096c7;
     box-shadow: 0 0 12px rgb(34, 146, 113);
-    transition: all .3s
+    transition: all .1s ease
 }
 
 

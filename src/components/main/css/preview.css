@@ -48,11 +48,11 @@
     background-color: rgba(153, 51, 102, 0.432);
     opacity:0.8;
     color:#5096c7;
-    transition:all 0.4s linear;
+    transition:all 0.1s linear;
 }
 
 .content-options>.btn-prev:active{
     background-color: rgba(250, 242, 242, 0.432);
-    transition: all .4s ease-in-out;
+    transition: all .1s ease-in-out;
     outline:none
 }
