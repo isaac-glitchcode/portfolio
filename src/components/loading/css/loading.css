@@ -6,8 +6,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    background-image: url('../img/bg.jpg');
-    /* background-image: url('https://hddesktopwallpapers.in/wp-content/uploads/2015/09/night-forest-wallpaper-cool.jpg'); */
+    background-image: url('../img/bg1.jpg');
+    /* background-image: url('https://wallpapertag.com/wallpaper/full/6/4/e/403896-hexagon-background-1920x1200-tablet.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,8 +22,8 @@
 
 .content-load .logo{
     position:relative;
-    max-width: 31.25rem;
-    margin:16em 0 4.125rem 0;
+    max-width: 15.25rem;
+    margin:8em 0 4.125rem 0;
     z-index: 1;
 }
 
@@ -48,7 +48,7 @@
 }
 
 /* neon progress bar*/
-/* .content-load .progress:before{
+.content-load .progress:before{
     content:'';
     width: 80%;
     height: 0.3125em;
@@ -62,11 +62,11 @@
     width: 80%;
     height: 0.3125em;
     margin: 0px auto 0.75em 10%;
-    background: #33ffff;
+    background: #1d13a7;
     z-index: 1;
-    box-shadow: 0 0 0.75rem #33ffff;
+    box-shadow: 0 0 0.75rem #3374ff;
     animation: progress 2s linear;
-} */
+}
 
 @keyframes progress{
     0%{
@@ -86,7 +86,7 @@
     width:10rem;
     max-height:10em;
     background-color: #0a0d11;
-    border:1.3px solid #ec0606;
+    border:1.3px solid #1d13a7;
     color:#fff;
     font-size: 1.125rem;
     font-weight: bold;
