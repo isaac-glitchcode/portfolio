@@ -2,7 +2,7 @@
     width: 100%;
     max-height: 100%;
     margin:auto;
-    display:block
+    display:block;
 }
 
 .content-preview{
@@ -11,20 +11,24 @@
 }
 
 .preview .title{
-    color:#000;
-    font-family: "damn";
+    color:#ffffff;
+    font-family: "tech";
 
 }
 
 .content-img{
     position:relative;
-    /* border: 1px solid #33ffff;
-    box-shadow: 2px 0px 12px #33ffff; */
+    padding: 12px;
+    background-color:#141518;
+    opacity: 0.8;
+    border-radius: 10px;
+    
 }
 
 .prev-img{
     max-width: 100%;
     max-height: 100%;
+    opacity: 1;
 }
 
 .content-options{
@@ -37,9 +41,9 @@
     width:25%;
     height:auto;
     background-color: #0a0d11;
-    border:1.3px solid red;
+    border:1.3px solid rgb(38, 161, 199);
     color:#fff;
-    font-family: "damn";
+    font-family: "tech";
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -50,8 +54,8 @@
 .content-options>.btn-prev:hover{
     background-color: rgba(48, 47, 46, 0.432);
     opacity:0.8;
-    color:#fff;
-    transition:all 0.1s linear;
+    color:rgb(38, 161, 199);
+    transition:all 0.2s linear;
 }
 
 .content-options>.btn-prev:active{

@@ -5,8 +5,8 @@ import Load from './components/loading/loading'
 import Logo from './components/loading/img/logo.png'
 import Main from './components/main/main';
 import Img from './components/main/img/im.jpg';
-// import About from './components/main/img/About.jpg';
-// import Portfolio from './components/main/img/Portfolio.jpg';
+import About from './components/main/img/About.jpg';
+import Portfolio from './components/main/img/Portfolio.jpg';
 // import Extras from './components/main/img/Extras.jpg';
 // import GitHub from './components/main/img/GitHub.jpg';
 // import LinkedIn from './components/main/img/LinkedIn.jpg';
@@ -35,12 +35,12 @@ function App() {
     setOption(newOption)
     switch(newOption){
       case "About":
-        setImage(Img);
-        // setImage(About);
+        // setImage(Img);
+        setImage(About);
         break
       case "Portfolio":
-        setImage(Img)
-        // setImage(Portfolio)
+        // setImage(Img)
+        setImage(Portfolio)
         break
       case "Extras":
         setImage(Img)
