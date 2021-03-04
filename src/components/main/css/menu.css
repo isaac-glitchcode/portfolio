@@ -2,13 +2,16 @@
     min-height: 100vh;
     max-width: 50vh;
     position:relative;
-    /* background: linear-gradient(to right, rgb(153, 51, 102), rgb(22, 22, 22)); */
-    background-image: url('https://p0.pxfuel.com/preview/780/727/602/background-grunge-paper-old.jpg') ;
-    opacity: 0.8;
+    background-color: #141518;
+    color:#ffffff;
+    /* background: linear-gradient(to right, rgb(53, 51, 153), rgb(22, 22, 22)); */
+    /* background-image: url('https://p0.pxfuel.com/preview/780/727/602/background-grunge-paper-old.jpg') ; */
+    /* opacity: 0.8; */
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2 1fr);
-    padding: 0 100px 0 0;
+    padding: 20px 50px 50px 50px;
+    justify-content: center;
 }
 .menu:after{
     content:'';
@@ -18,10 +21,15 @@
     background: rgba(0,0,0,0.4); 
 } 
 .content-logo{
-    margin-top:7.25em;
+    background-color: #06030C;
+    margin-top:4.25em;
+    margin-bottom:1.25rem;
+    padding:20px;
+    margin: auto;
+    border-radius: 50px 1px 50px 1px;
 }
 .content-logo  img{
-    max-width: 21.25rem;
+    max-width: 15.25rem;
 }
 .content-items ul>li{
     list-style:none
@@ -30,38 +38,43 @@
 .menu .content-items{
     position:relative;
     max-width: 48vh;
+    background-color: #06030C;
+    border-radius: 50px 1px 50px 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .menu .items{
     font-size:1.5rem;
-    color:rgb(29, 28, 28);
     text-transform: uppercase;
     opacity: 1;
-    /* border-radius: 1px 1px 20px 1px;
-    border:2px solid transparent; */
+    border-radius: 1px 1px 20px 1px;
+    border:2px solid transparent;
     margin:0 0 12px 20px; 
-    /* transition: all .1s ease; */
-    font-family: "damn";
+    transition: all .1s ease;
+    font-family: "tech";
     z-index: 1;
-    /* background-image: linear-gradient(currentColor, red);
+    background-image: linear-gradient(currentColor, red);
     background-position: 20% 80%;
     background-repeat: no-repeat;
-    background-size: 0% 2px; */
+    background-size: 0% 2px;
     transition: background-size .3s;
 }
 .menu .items >div>p{
     margin:auto;
-    padding: 0 0 0 0.75rem
+    padding: 0 0 0 0.75rem;
+    color:rgb(255, 255, 255); 
+
 }
 .menu .items:hover{
     cursor:pointer;
-    /* background-size: 50% 2px; */
-    text-decoration: line-through;
-    color:red;
-    /* color:rgb(243, 182, 102); */
-    /* background: rgba(53, 52, 52, 0.514);
+    background-size: 50% 2px;
+    /* text-decoration: line-through;
+    color:red; */
+    background: rgba(53, 52, 52, 0.514);
     border-radius: 1px 1px 20px 1px;
-    border:2px solid rgb(243, 182, 102); */
-    /* transition: all .1s ease */
+    border:2px solid rgb(38, 161, 199);
+    transition: all .1s ease;
 }
 
 
