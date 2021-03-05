@@ -7,9 +7,9 @@ import Main from './components/main/main';
 import Img from './components/main/img/im.jpg';
 import About from './components/main/img/About.jpg';
 import Portfolio from './components/main/img/Portfolio.jpg';
-// import Extras from './components/main/img/Extras.jpg';
-// import GitHub from './components/main/img/GitHub.jpg';
-// import LinkedIn from './components/main/img/LinkedIn.jpg';
+import Extras from './components/main/img/Extras.jpg';
+import GitHub from './components/main/img/Github.jpg';
+import LinkedIn from './components/main/img/Linkedin.jpg';
 import AboutPage from './components/about/about';
 import Avatar from './components/about/img/me.png';
 import FingerPrint from './components/about/img/fp.png';
@@ -26,7 +26,7 @@ function App() {
   );
   const [option, setOption] = useState("");
   const [image, setImage] = useState("")
-  const [show, setHidde] = useState(0);
+  const [show, setHidde] = useState(1);
   // const [page] = useState({AboutPage});
   const [style, setStyle] = React.useState({});
 
@@ -43,20 +43,20 @@ function App() {
         setImage(Portfolio)
         break
       case "Extras":
-        setImage(Img)
-        // setImage(Extras)
+        // setImage(Img)
+        setImage(Extras)
         break
       case "GitHub":
-        setImage(Img)
-        // setImage(GitHub)
+        // setImage(Img)
+        setImage(GitHub)
         break
       case "LinkedIn":
-        setImage(Img)
-        // setImage(LinkedIn)
+        // setImage(Img)
+        setImage(LinkedIn)
         break
       default:
-        setImage(Img)
-        // setImage(About)
+        // setImage(Img)
+        setImage(About)
     }
   }
   const handler = () =>{
