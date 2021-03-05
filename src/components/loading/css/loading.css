@@ -126,7 +126,7 @@
     z-index: -100;
 }
 
-@media (max-width:1700px) and (orientation: landscape){
+@media (max-width:1024px) and (orientation: landscape){ 
     .landscape {
         display: flex;
         position: fixed;
@@ -142,7 +142,7 @@
         align-items: center;
         justify-content: center;
     }
-}
+} 
 @media (max-width:836px){
     .content-load .logo{
         max-width: 8.25rem;
@@ -160,7 +160,7 @@
     } 
 }
 
-@media (max-width:730px){
+@media (max-width:768px){
     .content-load .logo{
         max-width: 20.25rem;
         margin:5em 0 3.125rem 0;
