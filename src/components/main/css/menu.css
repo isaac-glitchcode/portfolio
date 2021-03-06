@@ -3,7 +3,7 @@
     max-width: 80vh;
     position:relative;
     margin-top:3.125rem;
-    background-color: #141518;
+    /* background-color: #141518; */
     color:#ffffff;
     /* background: linear-gradient(to right, rgb(53, 51, 153), rgb(22, 22, 22)); */
     /* background-image: url('https://p0.pxfuel.com/preview/780/727/602/background-grunge-paper-old.jpg') ; */
@@ -11,25 +11,21 @@
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2 1fr);
-    padding: 0px 20px 20px 20px;
+    padding: 0px 10px 10px 10px;
     
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.menu:after{
-    content:'';
-    position:absolute;
-    width: 100%;
-    max-height:100vh ;
-    background: rgba(0,0,0,0.4); 
-} 
+
 .content-logo{
-    background-color: #06030C;
-    margin-top:1.25em;
+    background-color: #1e2431;
+    margin-top:.7em;
     margin-bottom:1.25rem;
     padding:20px;
     /* margin: auto; */
-    border-radius: 50px 1px 50px 1px;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: 10px solid #141518;
 }
 .content-logo  img{
     max-width: 15.25rem;
@@ -42,11 +38,13 @@
 .menu .content-items{
     position:relative;
     max-width: 48vh;
-    background-color: #06030C;
-    border-radius: 50px 1px 50px 1px;
+    background-color: #061c2d;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: 10px solid #141518;
 }
 .menu .items{
     font-size:1.5rem;

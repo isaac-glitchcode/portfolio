@@ -40,26 +40,29 @@
     margin:auto;
     width:25%;
     height:auto;
-    background-color: #0a0d11;
-    border:1.3px solid rgb(38, 161, 199);
-    color:#fff;
+    background-color: transparent;
+    border:1.3px solid #12a951;
+    color:#12a951;
     font-family: "tech";
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     border-bottom-left-radius: 15px;
-    outline:none 
+    outline:none;
+    transition:all 0.4s linear;
+
 }
 
 .content-options>.btn-prev:hover{
-    background-color: rgba(48, 47, 46, 0.432);
+    background-color: #12a951;
     opacity:0.8;
-    color:rgb(38, 161, 199);
-    transition:all 0.2s linear;
+    color:#171817;
+    border:1.3px solid #171817;
+    transition:all 0.4s linear;
 }
 
 .content-options>.btn-prev:active{
-    background-color: rgba(250, 242, 242, 0.432);
+    background-color: #12a9516c;
     transition: all .1s ease-in-out;
     outline:none
 }
