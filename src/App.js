@@ -4,6 +4,9 @@ import './App.css';
 import Load from './components/loading/loading'
 import Logo from './components/loading/img/logo.png'
 import Main from './components/main/main';
+import Git from './components/main/img/git.png';
+import Link from './components/main/img/link.png';
+
 // import Img from './components/main/img/im.jpg';
 import About from './components/main/img/About.jpg';
 import Portfolio from './components/main/img/Portfolio.jpg';
@@ -75,7 +78,7 @@ function App() {
             {
               show ? <Load logo = {Logo} handler = {handler} style={style}/>
               :
-              <Main logo = {Logo} menu = {menu} handle={handleOption} option={option} img={image} />
+              <Main logo = {Logo} menu = {menu} handle={handleOption} option={option} img={image} imgGit = {Git} imgLink = {Link}/>
             }
           </Route>
           <Route path="/about">

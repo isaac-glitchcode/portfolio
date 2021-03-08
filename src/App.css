@@ -1,5 +1,5 @@
 @import url("./components/main/css/main.css"); 
-@import url("./components/main/css/menu.css"); 
+@import url("./components/main/css/profile.css"); 
 @import url("./components/main/css/preview.css"); 
 @import url("./components/loading/css/loading.css"); 
 @import url("./components/about/css/about.css"); 
@@ -16,6 +16,10 @@ body{
   src: url("./fonts/TECHNO CAPTURE.ttf");
 } 
 @font-face {
-  font-family: "damn";
-  src: url("./fonts/decrepit.ttf");
+  font-family: "moon";
+  src: url("./fonts/Moon Bold.otf");
+} 
+@font-face {
+  font-family: "mont";
+  src: url("./fonts/Montserrat-Regular.ttf");
 } 

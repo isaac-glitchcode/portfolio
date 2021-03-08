@@ -1,20 +1,22 @@
 import React from 'react';
-import Menu from './menu'
+import Profile from './profile';
 import Preview from './preview';
 
 export default function Main(props){
 
     return (
         
-        <div className="main-menu">
-            <div className="container">
+        <div className="main">
+            <div className="container profile">
                 <div className="row">
-                    <header className="col-sm-12">
-                        <nav className="main">
-                            <Menu logo = {props.logo} menu = {props.menu} handle={props.handle}/>
-                        </nav> 
-                    </header>
+                    <aside>
+                        
+                        <Profile logo = {props.logo} menu = {props.menu} handle={props.handle} git={props.imgGit} linkedin={props.imgLink}/>
+                        
+                    </aside>
                 </div>
+            </div>
+            <div className="container information">
                 <div className="row">
                     <section className="preview-content">
                         <Preview option_selected={props.option} img={props.img}/>
@@ -22,6 +24,22 @@ export default function Main(props){
                 </div>
             </div>
         </div>
+        // <div className="main-menu">
+        //     <div className="container">
+        //         <div className="row">
+        //             <header className="col-sm-12">
+        //                 <nav className="main">
+        //                     <Menu logo = {props.logo} menu = {props.menu} handle={props.handle}/>
+        //                 </nav> 
+        //             </header>
+        //         </div>
+        //         <div className="row">
+        //             <section className="preview-content">
+        //                 <Preview option_selected={props.option} img={props.img}/>
+        //             </section>
+        //         </div>
+        //     </div>
+        // </div>
     );
   
 }
