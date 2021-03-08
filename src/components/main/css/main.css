@@ -3,11 +3,11 @@
   background: linear-gradient(to right, #191b2d,#181a2c);
   display:grid;
   grid-template-columns: repeat(8, 1fr);
+  padding: 0 2em 0 2em;
   
 }
 .container{
   /* background: red; */
-  padding: 0 2em 0 2em;
 }
 .profile{
   background: blue;
