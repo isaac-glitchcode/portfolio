@@ -1,10 +1,8 @@
-.content-info{
-    background: yellow;
-}
+/*Navbar*/
+.content-info{background: yellow;}
 .content-info ul{
     display:flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
 .content-info ul>li{
     list-style: none;
@@ -14,7 +12,7 @@
     cursor: pointer;
     transition:all 0.4s linear;
 }
-.content-info ul>li:hover{
+.content-info ul>.item-selected{
     color:#fff;
     transition:all 0.4s linear;
 }
@@ -45,36 +43,26 @@
     border-bottom-right-radius: 15px;
     margin:0 15px;   
 }
-.light-option-bar>.ch1{
-    background-color: blue;
-    margin:0 15px;   
+.light-option-bar>.ch-active-general{
+    background-color: #0084fb;
+    box-shadow: 0 0 2px #0084fb;
+    transition:all 0.4s linear;
 }
-.light-option-bar>.ch01{
-    margin:0 15px;
+.light-option-bar>.ch-inactive-general{
     background-color: transparent;  
     transition:all 0.4s linear;
 }
-.light-option-bar>.ch2{
-    background-color: blue;
-    margin:0 1.50em;   
-}
-.light-option-bar>.ch02{
-    margin:0 1.50em;
-    background-color: transparent;  
-    transition:all 0.4s linear;
-}
-.light-option-bar>.ch3{
-    margin:0 0.50em;
-    background-color: blue;
-    transition:all 0.4s linear;
-}
-.light-option-bar>.ch03{
-    margin:0 0.50em;
-    background-color: transparent;  
-    transition:all 0.4s linear;
-}
+.light-option-bar>.ch1{margin:0 15px;}
+.light-option-bar>.ch01{margin:0 15px;}
+.light-option-bar>.ch2{margin:0 1.50em;}
+.light-option-bar>.ch02{margin:0 1.50em;}
+.light-option-bar>.ch3{margin:0 0.50em;}
+.light-option-bar>.ch03{margin:0 0.50em;}
 
-
+/*Content*/
+.content{
+    background: orange;
+}
 
 /* .option-bar:before{
     content:'';

@@ -13,33 +13,52 @@ export default function Preview(props){
             <div className="navbar">
                 <nav>
                     <ul>
-                        <li value="1" onMouseOver={(event) => fn(event)} onMouseOut={props.handle}>About</li>
-                        <li value="2" onMouseOver={(event) => fn(event)}  onMouseOut={props.handle}>Portfolio</li>
-                        <li value="3" onMouseOver={(event) => fn(event)}  onMouseOut={props.handle}>Extras</li>
+                        {
+                            props.turn===1? 
+                                <li value="1" onMouseOver={(event) => fn(event)} className="item-selected">About</li>
+                            :
+                                <li value="1" onMouseOver={(event) => fn(event)}>About</li>
+                    
+                        }
+                        {
+                            props.turn===2? 
+                                <li value="2" onMouseOver={(event) => fn(event)} className="item-selected">Portfolio</li>
+                            :
+                                <li value="2" onMouseOver={(event) => fn(event)}>Portfolio</li>
+                    
+                        }
+                        {
+                            props.turn===3? 
+                                <li value="3" onMouseOver={(event) => fn(event)} className="item-selected">Extras</li>
+                            :
+                                <li value="3" onMouseOver={(event) => fn(event)}>Extras</li>
+                    
+                        }
                     </ul>
                 </nav>
+                
                 <div className="light-option-bar">
-                    
                     {
-                     props.turn===1?<span className="ch1"></span>
+                     props.turn===1?<span className="ch1 ch-active-general"></span>
                      :
-                     <span className="ch01"></span>
+                     <span className="ch01 ch-inactive-general"></span>
                     }
                     {
-                     props.turn===2?<span className="ch2"></span>
+                     props.turn===2?<span className="ch2 ch-active-general"></span>
                      :
-                     <span className="ch02"></span>
+                     <span className="ch02 ch-inactive-general"></span>
                     }
                     {
-                     props.turn===3?<span className="ch3"></span>
+                     props.turn===3?<span className="ch3 ch-active-general"></span>
                      :
-                     <span className="ch03"></span>
+                     <span className="ch03 ch-inactive-general"></span>
                     }
                     
                 </div>
-                
                 <div className="option-bar"></div>
             </div> 
+            <div className="content">Content</div>
+
         </section>
         // <section className="preview">
         //     <div className="content-preview">

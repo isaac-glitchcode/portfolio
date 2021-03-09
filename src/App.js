@@ -30,7 +30,7 @@ function App() {
   // const [option, setOption] = useState("");
   // const [image, setImage] = useState("")
   // const [show, setHidde] = useState(0);
-  const [turnOn, setTurnOn] = useState(0);
+  const [turnOn, setTurnOn] = useState(1);
   // const [page] = useState({AboutPage});
   // const [style, setStyle] = React.useState({});
 
