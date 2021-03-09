@@ -15,10 +15,11 @@
 .information{
   background: green;
   grid-column: 2 / 9;
+  margin-top: 1.875em;
 }
 .preview-content{
-  background: red;
-  margin-top: 1.875em;
+  /* background: red;
+  margin-top: 1.875em; */
 }
 @media (max-width: 768px) {
   .profile{

@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../about/about';
 // import {Link} from 'react-router-dom';
 
 export default function Preview(props){
@@ -36,7 +37,7 @@ export default function Preview(props){
                         }
                     </ul>
                 </nav>
-                
+
                 <div className="light-option-bar">
                     {
                      props.turn===1?<span className="ch1 ch-active-general"></span>
@@ -57,7 +58,18 @@ export default function Preview(props){
                 </div>
                 <div className="option-bar"></div>
             </div> 
-            <div className="content">Content</div>
+            <div className="content">
+                {
+                    
+                    props.turn===1? 
+                        <div className="show"><About /></div>
+                    :
+                        <div className="hide"><About /></div> 
+            
+                    
+                }
+                
+            </div>
 
         </section>
         // <section className="preview">

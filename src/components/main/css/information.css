@@ -1,5 +1,10 @@
 /*Navbar*/
-.content-info{background: yellow;}
+.content-info{
+    background: yellow;}
+.content-info .navbar{
+    background: rgb(40, 192, 103);
+    
+}
 .content-info ul{
     display:flex;
     flex-direction: row; 
@@ -63,6 +68,24 @@
 .content{
     background: orange;
 }
+
+/*Responsive*/
+@media (max-width: 768px) {
+    .content-info .navbar{
+        display:felx;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+@media (max-width: 320px) {
+    .content-info .navbar{
+        display:felx;
+        justify-content: center;
+        align-items: center;
+        padding:0 1.25rem 0 0
+    }
+
+  }
 
 /* .option-bar:before{
     content:'';

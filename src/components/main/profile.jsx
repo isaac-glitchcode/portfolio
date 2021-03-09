@@ -35,7 +35,7 @@ export default function Menu(props){
                 <span className="social git"><img src={props.git} alt="github"/></span>
                 <span className="social link"><img src={props.linkedin} alt="linkedin"/></span>
             </div>
-            <hr/>
+            <hr className="hr-social"/>
             <div className="content-contact">
                 <button>CONTACT</button>
             </div>
