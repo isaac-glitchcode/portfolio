@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './profile';
-import Preview from './preview';
+import Information from './information';
 
 export default function Main(props){
 
@@ -11,7 +11,10 @@ export default function Main(props){
                 <div className="row">
                     <aside>
                         
-                        <Profile logo = {props.logo} menu = {props.menu} handle={props.handle} git={props.imgGit} linkedin={props.imgLink}/>
+                        <Profile 
+                        logo={props.logo} 
+                        git={props.imgGit} 
+                        linkedin={props.imgLink}/>
                         
                     </aside>
                 </div>
@@ -19,7 +22,7 @@ export default function Main(props){
             <div className="container information">
                 <div className="row">
                     <section className="preview-content">
-                        <Preview option_selected={props.option} img={props.img}/>
+                        <Information handle={props.handler} turn={props.turn}/>
                     </section>
                 </div>
             </div>

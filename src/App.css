@@ -1,11 +1,11 @@
 @import url("./components/main/css/main.css"); 
 @import url("./components/main/css/profile.css"); 
-@import url("./components/main/css/preview.css"); 
+@import url("./components/main/css/information.css"); 
 @import url("./components/loading/css/loading.css"); 
 @import url("./components/about/css/about.css"); 
 body{
 
-  font-family: "tech";
+  font-family: "mont";
 }
 .link{
   color: inherit;

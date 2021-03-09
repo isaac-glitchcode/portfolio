@@ -18,7 +18,7 @@ export default function Menu(props){
                     />
                 </div>
             </div>
-            <div className="content-info">
+            <div className="content-data">
                 <p><span>Name:</span> Isaac Gonzalez</p>
                 <p><span>Age:</span> 30</p>
                 <p><span>Location:</span> Guadalajara</p>

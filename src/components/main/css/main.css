@@ -17,6 +17,7 @@
   grid-column: 2 / 9;
 }
 .preview-content{
+  background: red;
   margin-top: 1.875em;
 }
 @media (max-width: 768px) {
