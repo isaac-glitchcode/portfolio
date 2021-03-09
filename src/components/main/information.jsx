@@ -62,7 +62,7 @@ export default function Preview(props){
                 {
                     
                     props.turn===1? 
-                        <div className="show"><About /></div>
+                        <div className="show"><About java={props.java}/></div>
                     :
                         <div className="hide"><About /></div> 
             

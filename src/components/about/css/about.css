@@ -2,12 +2,13 @@
     background: blue;
     max-width: 95%;
     max-height: 100vh;
+
 }
 .show{
-    display:block
+    display:block;
 }
 .hide{
-    display:none
+    display:none;
 }
 
 .content-text{
@@ -18,6 +19,34 @@
     border-radius: 10px;
     text-align: justify;
 }
-.content-text{
-    
+.content-technologies{
+    background: purple;
+    height: 100%;
+    margin-top: 0.625em;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.content-technologies .card{
+    width: 15.7em;
+    background-color: #292944;
+    color:#fff;
+    border-bottom:2px solid #0084fb;
+    border-radius: 10px;
+    margin:0 0 2em 0;
+}
+.content-technologies .card-java>hr{
+    margin:auto auto 0 auto;
+    background-color: #656668;
+ 
+}
+.content-technologies .java{
+    width: 4em;
+    margin: 0 auto;
+}
+.content-technologies h2{
+    font-size: 18px;
+    text-align: center;
+    margin:0;
+    padding: 12px 0;
+    background-color: #2d2d46;
 }

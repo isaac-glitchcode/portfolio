@@ -22,7 +22,7 @@ export default function Main(props){
             <div className="container information">
                 <div className="row">
                     <section className="preview-content">
-                        <Information handle={props.handler} turn={props.turn}/>
+                        <Information handle={props.handler} turn={props.turn} java={props.java}/>
                     </section>
                 </div>
             </div>

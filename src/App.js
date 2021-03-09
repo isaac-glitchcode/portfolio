@@ -6,6 +6,7 @@ import Logo from './components/loading/img/logo.png'
 import Main from './components/main/main';
 import Git from './components/main/img/git.png';
 import Link from './components/main/img/link.png';
+import Java from './components/about/img/java.png'
 
 // import Img from './components/main/img/im.jpg';
 // import About from './components/main/img/About.jpg';
@@ -92,7 +93,8 @@ function App() {
               imgLink={Link}
               // handleTurnOn={handlerLightBar}
               turn={turnOn}
-              handler = {handler}/>
+              handler = {handler}
+              java={Java}/>
             }
           </Route>
           <Route path="/about">
