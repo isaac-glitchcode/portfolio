@@ -4,10 +4,10 @@ import React from 'react';
 // import {Link} from 'react-router-dom';
 
 export default function Preview(props){
-    const fn = (event) => {
-        // console.log(event.target.value);
-        props.handle(event.target.value);
-    }
+    // const fn = (event) => {
+    //     // console.log(event.target.value);
+    //     props.handle(event.target.value);
+    // }
 
     return(
         <section className="content-info" id="content-main">
