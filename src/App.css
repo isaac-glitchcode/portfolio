@@ -1,16 +1,20 @@
 @import url("./components/main/css/main.css"); 
-@import url("./components/main/css/profile.css"); 
-@import url("./components/main/css/information.css"); 
+@import url("./components/profile/css/profile.css"); 
+@import url("./components/content-main/css/content-main.css"); 
 @import url("./components/loading/css/loading.css"); 
 @import url("./components/about/css/about.css"); 
-body{
 
+body{
   font-family: "mont";
+  background: linear-gradient(to right, #191b2d,#181a2c);
+  transition:all 0.4s linear;
 }
+
 .link{
   color: inherit;
   text-decoration: inherit;
 }
+
 @font-face {
   font-family: "tech";
   src: url("./fonts/TECHNO CAPTURE.ttf");

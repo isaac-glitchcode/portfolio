@@ -1,17 +1,21 @@
 import React from 'react';
-import About from '../about/about';
+
+// import About from '../about/about';
 // import {Link} from 'react-router-dom';
 
 export default function Preview(props){
     const fn = (event) => {
-        console.log(event.target.value);
+        // console.log(event.target.value);
         props.handle(event.target.value);
     }
 
     return(
-        <section className="content-info">
+        <section className="content-info" id="content-main">
+            Content Main
+            {/* <nav>Navbar</nav>
+            <About/> */}
             
-            <div className="navbar">
+            {/* <div className="navbar">
                 <nav>
                     <ul>
                         {
@@ -62,14 +66,14 @@ export default function Preview(props){
                 {
                     
                     props.turn===1? 
-                        <div className="show"><About java={props.java}/></div>
+                        <div className="show"><About tech={props.tech}/></div>
                     :
-                        <div className="hide"><About /></div> 
+                        <div className="hide"><About tech={props.tech} /></div> 
             
                     
                 }
                 
-            </div>
+            </div> */}
 
         </section>
         // <section className="preview">

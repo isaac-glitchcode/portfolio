@@ -1,27 +1,99 @@
 .main{
-  min-height: 100vh;
-  background: linear-gradient(to right, #191b2d,#181a2c);
+  height: 100vh;
+  background: #fffddd; 
   display:grid;
-  grid-template-columns: repeat(8, 1fr);
-  padding: 0 2em 0 2em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas: 
+    "sidebar nav nav nav"
+    "sidebar content-main content-main content-main"
+    "sidebar content1 content2 content3"
+    "sidebar content4 content5 content6" 
+  ; 
+  gap:0.3em;
 }
-.container{
-  /* background: red; */
+#sidebar{
+  background: rgb(27, 27, 204);
+  grid-area: sidebar;
 }
+nav{
+  background: rgb(27, 204, 36);
+  grid-area:nav;
+}
+#content-main{
+  background: rgb(204, 27, 195);
+  grid-area:content-main;
+}
+#content1{
+  background: rgb(27, 183, 204);
+  grid-area:content1;
+}
+#content2{
+  background: rgb(27, 183, 204);
+  grid-area:content2;
+}
+#content3{
+  background: rgb(27, 183, 204);
+  grid-area:content3;
+}
+#content4{
+  background: rgb(27, 183, 204);
+  grid-area:content4;
+}
+#content5{
+  background: rgb(27, 183, 204);
+  grid-area:content5;
+}
+#content6{
+  background: rgb(27, 183, 204);
+  grid-area:content6;
+}
+
+/*Responsive*/
+@media only screen and (max-width:768px){
+  .main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 10.4fr 10.4fr  5.2fr 5.2fr 5.2fr 5.2fr 5.2fr 5.2fr 5.2fr;
+    grid-template-areas: 
+    "sidebar"
+    "content-main"
+    "content1"
+    "content2"
+    "content3"
+    "content4"
+    "content5"
+    "content6"
+    "nav"
+  ; 
+
+  }
+  nav{
+    display: flex;
+    width: 100%;
+    align-self:flex-end;
+    position:fixed;
+  }
+  
+}
+
+/* #sidebar{
+  background: #665ffd;
+  grid-area:sidebar;
+} */
 .profile{
-  background: blue;
-  grid-column: 1 / 2 ;
+  /* background: blue; 
+  grid-column: 1 / 2 ; */
 }
 .information{
-  background: green;
-  grid-column: 2 / 9;
-  margin-top: 1.875em;
+  /* background: green;
+  grid-column: 2 / 5; */
+  /* margin-top: 1.875em;  */
 }
 .preview-content{
   /* background: red;
   margin-top: 1.875em; */
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .profile{
     background: blue;
     grid-column: 1 / 8 ;
@@ -30,17 +102,4 @@
     display:flex;
     flex-direction: column;
   }
-}
-/* .main-menu{
-  min-height: 100vh;
-  background-image: url('../img/main_menu.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.container{
-  display:flex;
-  justify-content: space-between;
-}
-.preview-content{
-  margin-top: 1.875em;
 } */

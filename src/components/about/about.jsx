@@ -4,8 +4,17 @@ export default function AboutPage(props){
 
     return(
         <section className="content-about">
-            <div className="content-text">
-                <p>
+            <div id="content-main">Content Main</div>
+            <div id="content1">content1</div>
+            <div id="content2">content2</div>
+            <div id="content3">content3</div>
+            <div id="content4">content4</div>
+            <div id="content5">content5</div>
+            <div id="content6">content6</div>
+
+            
+            {/* <div className="content-text">
+                <p id="description">
                 Hello! My name is Isaac. I am passionate about technology
                 I like to research on topics such as artificial intelligence, data science, videogames, bioinformatics,
                 and astrophysics among others.
@@ -13,38 +22,19 @@ export default function AboutPage(props){
                 </p>
             </div>
             <div className="content-technologies">
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>Java</h2>
-                </div>
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>Python</h2>
-                </div>
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>Django</h2>
-                </div>
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>React</h2>
-                </div>
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>MySQL</h2>
-                </div>
-                <div className="card card-java">
-                    <img className="java" src={props.java} alt="java"/>
-                    <hr/>
-                    <h2>Java Script</h2>
-                </div>
+                {
+                props.tech.map((item, key)=>{
+                    return(
+                        <div className="general card" key={key} id="item-card">
+                            <img src={item[1]} alt={item[0]}/>
+                            <hr/>
+                            <h2>{item[0]}</h2>
+                        </div>
+                    )
+                })
+                }
                 
-            </div>
+            </div> */}
         </section>
     )
 }

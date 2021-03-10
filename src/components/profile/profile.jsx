@@ -1,7 +1,12 @@
 import React from 'react';
+import Logo from './logo/logo';
+import Info from './information/information';
+import Interests from './interests/interests';
+import Social from './socialmedia/social_media';
+import Button from './button/button';
 // import audio from './sound/selection.mp3';
 
-export default function Menu(props){
+export default function Profile(props){
 
     // const _audio = () => {
     //     var sound = new Audio(audio)
@@ -9,8 +14,19 @@ export default function Menu(props){
     // }
    
     return (
-        <section className="profile-content ">
-            <div className="content-logo">
+        <section className="profile-content" id="sidebar">
+            <div className="card-profile">
+                <Logo/>
+                <Info/>
+                <hr id="hr1"/>
+                <Interests interests={props.interests}/>
+                <hr id="hr2"/>
+                <Social/>
+                <hr id="hr3"/>
+                <Button/>
+            </div>
+
+            {/* <div className="content-logo">
                 <div className="logo">
                     <img 
                     src={props.logo}
@@ -38,7 +54,7 @@ export default function Menu(props){
             <hr className="hr-social"/>
             <div className="content-contact">
                 <button>CONTACT</button>
-            </div>
+            </div> */}
         </section>
         // <section className="profile-content">
         //     <div className="content-logo">

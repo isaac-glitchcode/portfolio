@@ -1,9 +1,9 @@
-.profile-content{
+/* .profile-content{
     height: 100%;
     width: 40vh;
     position:relative;
     margin-top:5.125rem;
-    background-color: #292944;
+    background: linear-gradient(to bottom, #0f2027, #2d2d46, #292944);
     color:#ffffff;
     display:grid;
     grid-template-columns: 1fr;
@@ -11,8 +11,139 @@
     padding: 0px 10px 10px 10px;
     justify-content: space-between;
     border-radius: 20px;
+}*/
+
+/*Card General*/
+.card-profile{
+    min-height: 35em;
+    width: 100%;
+
+    margin: 20% 0;
+    padding: 0 .5em;
+
+    display:grid;
+    grid-template-rows: .8fr .8fr .1fr .1fr .1fr;
+    grid-template-areas: 
+        "picture"
+        "info"
+        "hr1"
+        "interest"
+        "hr2"
+        "social-media"
+        "hr3"
+        "button"
+        
+    ;
+    gap:0.3em;
+
+    color:#ffffff;
+
+    background: linear-gradient(to bottom, #0f2027, #2d2d46, #292944);
+    border-radius: 20px; 
+    transition:all 0.4s linear;
 }
 
+/*Settings*/
+.card-profile #picture{
+    grid-area:picture;
+    text-align: center;
+}
+.card-profile #info{
+    grid-area: info;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 1.5em 0 0 0;
+}
+.card-profile #interest{
+    grid-area: interest;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+
+    justify-content: center;
+    text-align: center;
+}
+.card-profile #social-media{
+    grid-area: social-media;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.card-profile #button{
+    grid-area: button;
+    text-align: center;
+}
+
+/*Img*/
+.card-profile #picture>img{
+    width: 8rem;
+    background-color: #1e2431;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #505069;
+}
+
+/*Information*/
+.card-profile #info>p{
+    font-size: 15px;
+}
+.card-profile #info>p>span{
+    color:#4b4b6a;
+    margin:0 1em 0 0;
+}
+hr{
+   color: #656668;
+   border-radius: 5px;
+   /* margin:0; */
+}
+/*Interests*/
+.card-profile #interest>p{
+    background-color: rgba(32, 54, 90,.5);
+    color:#116bb4;
+    border-radius: 5px;
+}
+
+/*Media*/
+.card-profile #social-media .social{
+    width:35px;
+}
+.card-profile #social-media #git{
+    filter:invert(100%)
+}
+
+/*Button Contact*/
+.card-profile #button>button{
+    margin:0 0 1em 0;
+    background: linear-gradient(to right,  #1488cc, #2b32b2);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size:14px;
+    color:rgb(248, 249, 250);
+    transition:all 0.4s linear;
+}
+.card-profile #button>button:hover{
+    border: 2px solid gray;
+    transition:all 0.4s linear;
+}
+
+/*Responsive*/
+@media only screen and (max-width:768px){
+    .card-profile{
+        margin:auto;
+        width: 80%;
+        transition:all 0.4s linear;
+    }
+  }
+
+@media only screen and (max-width:340px){
+    .card-profile{
+        margin:0;
+        width: 100%;
+        transition:all 0.4s linear;
+    }
+  }
+/*
 .content-logo{
     transform: translateY(-60px);
     display:flex;
@@ -82,7 +213,6 @@
     align-items: center;
 }
 .content-contact>button{
-    /* background-color: rgb(20,98,166); */
     background: linear-gradient(to right,  #1488cc, #2b32b2);
     border: 2px solid transparent;
     border-radius: 5px;
@@ -103,30 +233,6 @@
       height: 100vh;
     
     }
-    /* .content-data{
-        margin-bottom: 0px ;
-    }
-    .content-interesting{
-        margin: 0;
-        transform: translateY(-2.5em);
-    }
-    .content-social-media{
-        margin:0;
-        padding:0;
-        transform: translateY(-5em);
-
-    }
-    .social>img{
-        width:55px;
-        margin:0 1.25rem;
-    }
-    .hr-social{
-        transform: translateY(-5em)
-    }
-    .content-contact{
-        transform: translateY(-10em)
-        
-    } */
   }
 @media (max-width: 320px) {
     .content-interesting{
@@ -134,8 +240,8 @@
         flex-direction: column;
         padding: 0;
     }
-  }
-
+  } */
+/**************************************************/
 /* .profile-content{
     height: 80%;
     max-width: 80vh;
