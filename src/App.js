@@ -114,7 +114,7 @@ function App() {
               // handleTurnOn={handlerLightBar}
               turn={turnOn}
               handler = {handler}
-              java={Java}/>
+              />
             }
           </Route>
           <Route path="/about">

@@ -1,6 +1,6 @@
 .main{
   height: 100vh;
-  background: #fffddd; 
+  padding: 0 .3em;
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
@@ -13,11 +13,11 @@
   gap:0.3em;
 }
 #sidebar{
-  background: rgb(27, 27, 204);
+  /* background: rgb(27, 27, 204); */
   grid-area: sidebar;
 }
 nav{
-  background: rgb(27, 204, 36);
+  /* background: rgb(27, 204, 36); */
   grid-area:nav;
 }
 #content-main{

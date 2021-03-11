@@ -10,7 +10,7 @@ export default function Main(props){
         
         <div className="main">
             <Profile interests={props.interests}/>
-            <Navbar/>
+            <Navbar turn={props.turn} handle={props.handler}/>
             <ContentMain/>
             <div id="content1"><Content/></div>
             <div id="content2"><Content/></div>
