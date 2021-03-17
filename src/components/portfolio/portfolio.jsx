@@ -7,10 +7,10 @@ import Chat from './cards/img/Chat.jpg'
 
 
 export default function Portfolio(props){
-    const html ="https://www.flaticon.es/svg/vstatic/svg/1160/1160309.svg?token=exp=1615935548~hmac=66905df8dfe64151071f7fec58d61a1e";
-    const css ="https://www.flaticon.es/svg/vstatic/svg/136/136527.svg?token=exp=1615935668~hmac=1085d3273614e5b7c8b9a078c6229bea";
-    const js ="https://www.flaticon.es/svg/vstatic/svg/1126/1126856.svg?token=exp=1615935916~hmac=86b4954fe2458b2315ddbdd05d18dfd2";
-    const reactjs ="https://www.flaticon.com/svg/vstatic/svg/875/875209.svg?token=exp=1615936034~hmac=49ea5f4de31652fa49bb83ea48f29479";
+    const html ="https://www.shareicon.net/data/512x512/2016/05/06/760858_html_512x512.png";
+    const css ="https://lh3.googleusercontent.com/proxy/qWq2x_4HkPQmClS_5xX3qAAUt1nsu0lMdw7G-qv7QjBb5M-86xBPnhoa1gpbTe9h1eoBiby6PO_OZi_uQltcLrEnMI37kK-JRmlUHwdo4omzngWn708dtQ";
+    const js ="https://image.flaticon.com/icons/png/512/136/136530.png";
+    const reactjs ="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png";
     const redux ="https://mattgreer.dev/_next/static/images/feature-f61395eb108bbaebd96b81b1697a20a4.svg";
     const express ="https://images.tute.io/tute/topic/express-js.png";
     const node ="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png";
