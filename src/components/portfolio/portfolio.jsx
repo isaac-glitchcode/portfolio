@@ -20,21 +20,18 @@ export default function Portfolio(props){
         [   
             [   "Pokédex",
                 Pokedex,
-                "Basado en el clásico juego de pokemon, esta aplicacion recrea una"+
-                " enciclopedia con la información básica de los primeros 151 pokmémons de la región de Kanto. ",
+                "Based on the classic pokemon game, this application recreates an encyclopedia with the basic information of the first 151 pokémons in the Kanto region.",
                 [["Html",html],["Css",css],["Java Script",js],["React",reactjs]]
             ],
 
             [   "E-comerce",
                 Ecomerce,  
-                "E-comerce de venta de videojuegos de generos variados para consolas de Xbox y Play Station,"+
-                " donde podrás encontrar varios titulos.",
+                "E-commerce of sale of video games of varied genres for Xbox consoles and Play Station, where you can find several titles.",
                 [["Html",html],["Css",css],["React",reactjs],["Redux",redux]]
             ],
             [   "Chat",
                 Chat,
-                "Desarrollado con react en el front-end y Node en el back-end con funciones básicas para enviar y "+
-                "recibir mensajes.",
+                "Developed with react on the front-end and Node on the back-end with basic functions to send and receive messages.",
                 [["Html",html],["Css",css],["React",reactjs],["Express",express],["NodeJs",node]]
             ]
         ]
