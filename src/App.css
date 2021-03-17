@@ -5,6 +5,9 @@
 @import url("./components/about/content/css/content.css"); 
 @import url("./components/portfolio/css/portfolio.css"); 
 @import url("./components/portfolio/cards/css/card.css"); 
+@import url("./components/extras/css/extras.css"); 
+@import url("./components/extras/extras-cards/css/extras-cards.css"); 
+
 
 
 body{

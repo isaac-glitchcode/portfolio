@@ -5,7 +5,7 @@ import About from '../about/about';
 
 
 import Portfolio from '../portfolio/portfolio';
-import Extras from '../extras/index';
+import Extras from '../extras/extras';
 
 export default function Main(props){
 
