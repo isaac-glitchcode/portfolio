@@ -1,9 +1,11 @@
 @import url("./components/main/css/main.css"); 
 @import url("./components/profile/css/profile.css"); 
 @import url("./components/navbar/css/navbar.css"); 
-/* @import url("./components/content-main/css/content-main.css");  */
-/* @import url("./components/loading/css/loading.css"); 
-@import url("./components/about/css/about.css");  */
+@import url("./components/about/css/about.css"); 
+@import url("./components/about/content/css/content.css"); 
+@import url("./components/portfolio/css/portfolio.css"); 
+@import url("./components/portfolio/cards/css/card.css"); 
+
 
 body{
   font-family: "mont";

@@ -1,8 +1,11 @@
 import React from 'react';
 import Profile from '../profile/profile';
 import Navbar from '../navbar/navbar';
-import ContentMain from '../content-main/content-main';
-import Content from '../content/content';
+import About from '../about/about';
+
+
+import Portfolio from '../portfolio/portfolio';
+import Extras from '../extras/index';
 
 export default function Main(props){
 
@@ -11,13 +14,33 @@ export default function Main(props){
         <div className="main">
             <Profile interests={props.interests}/>
             <Navbar turn={props.turn} handle={props.handler}/>
-            <ContentMain/>
-            <div id="content1"><Content/></div>
-            <div id="content2"><Content/></div>
-            <div id="content3"><Content/></div>
-            <div id="content4"><Content/></div>
-            <div id="content5"><Content/></div>
-            <div id="content6"><Content/></div>
+            {
+                props.turn===1?
+                    <div className="work-space">
+                        <About/>
+                        
+                    </div>
+                :
+                    <div></div>
+            }
+            {
+                props.turn===2?
+                    <div className="work-space">
+                        <Portfolio/>
+                    </div>
+                :
+                    <div></div>
+            }
+            {
+                props.turn===3?
+                    <div className="work-space">
+                        <Extras/>
+                    </div>
+                :
+                    <div></div>
+            }
+
+            
             
             
 

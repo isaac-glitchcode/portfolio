@@ -1,0 +1,28 @@
+#portfolio{
+    height:90%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: .3em;
+    color:#fff;
+    transition:all 0.4s linear;
+}
+
+  /*Responsive*/
+@media only screen and (max-width:768px){
+    #portfolio, .content-technologies{
+        grid-template-columns: 1fr ;
+        margin:auto;
+        width: 80%;
+        transition:all 0.4s linear;
+    }
+    
+}
+@media only screen and (max-width:340px){
+    #portfolio{
+        grid-template-columns: 1fr ;
+        margin:0;
+        width: 100%;
+        transition:all 0.4s linear;
+    }
+    
+}

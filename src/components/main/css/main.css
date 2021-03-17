@@ -6,21 +6,29 @@
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
   grid-template-areas: 
     "sidebar nav nav nav"
+    "sidebar work-space work-space work-space"
+    "sidebar work-space work-space work-space"
+    "sidebar work-space work-space work-space" 
+  ; 
+  /* grid-template-areas: 
+    "sidebar nav nav nav"
     "sidebar content-main content-main content-main"
     "sidebar content1 content2 content3"
     "sidebar content4 content5 content6" 
-  ; 
+  ;  */
   gap:0.3em;
 }
 #sidebar{
-  /* background: rgb(27, 27, 204); */
   grid-area: sidebar;
 }
 nav{
-  /* background: rgb(27, 204, 36); */
   grid-area:nav;
 }
-#content-main{
+.work-space{
+  grid-area:work-space;
+}
+
+/* #content-main{
   background: rgb(204, 27, 195);
   grid-area:content-main;
 }
@@ -47,9 +55,27 @@ nav{
 #content6{
   background: rgb(27, 183, 204);
   grid-area:content6;
-}
+} */
 
 /*Responsive*/
+@media only screen and (max-width:768px){
+  .main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 10.4fr 10.4fr  5.2fr;
+    grid-template-areas: 
+    "sidebar"
+    "work-space"
+    "nav"
+  ; 
+  }
+  nav{
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px; 
+  }
+}
+/* Responsive
 @media only screen and (max-width:768px){
   .main{
     grid-template-columns: 1fr;
@@ -75,7 +101,7 @@ nav{
     
   }
 
-}
+} */
 
 /* #sidebar{
   background: #665ffd;

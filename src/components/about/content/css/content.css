@@ -1,0 +1,48 @@
+#content{
+    background: linear-gradient(to bottom, #292944, #2d2d46, #292944);
+    border-radius: 10px;
+}
+
+#content #content-img-tech {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#content2 #content #content-img-tech img{
+    width: 5em;
+    margin:.5em 0 .4em 0;
+}
+#content #content-img-tech img{
+    width: 5em;
+    margin:.5em 0;
+}
+#content #content-img-tech .card-name{
+    width: 100%;
+    background: linear-gradient(to bottom, #292944, #2d2d46, #2f2f46);
+}
+#content .card-name>h1{
+    font-size: 25px;
+    text-align: center;
+    color:#fff;
+}
+#content hr{
+    margin:0
+}
+
+
+  /*Responsive*/
+/* @media only screen and (max-width:768px){
+    #content6 #content{
+        margin-bottom: 2em;
+        
+    }
+    
+
+@media only screen and (max-width:340px){
+    #content6{
+        margin-bottom: 2em;
+        
+    }
+    
+} */

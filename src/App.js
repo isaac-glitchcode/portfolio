@@ -7,12 +7,12 @@ import Main from './components/main/main';
 // import Git from './components/main/img/git.png';
 // import Link from './components/main/img/link.png';
 
-import Java from './components/about/img/java.png';
-import Python from './components/about/img/python.png';
-import JS from './components/about/img/js.png';
-import Sql from './components/about/img/sql.png';
-import Django from './components/about/img/django.png';
-import React_ from './components/about/img/react.png';
+// import Java from './components/about/img/java.png';
+// import Python from './components/about/img/python.png';
+// import JS from './components/about/img/js.png';
+// import Sql from './components/about/img/sql.png';
+// import Django from './components/about/img/django.png';
+// import React_ from './components/about/img/react.png';
 
 // import Img from './components/main/img/im.jpg';
 // import About from './components/main/img/About.jpg';
@@ -25,17 +25,17 @@ import React_ from './components/about/img/react.png';
 // import FingerPrint from './components/about/img/fp.png';
 function App() {
 
-  const [technologies] = useState(
+  // const [technologies] = useState(
               
-                [
-                  ["Java",Java],
-                  ["Python",Python],
-                  ["Java Script",JS],
-                  ["MySQL",Sql],
-                  ["Django",Django],
-                  ["React",React_],
-                ]     
-  );
+  //               [
+  //                 ["Java",Java],
+  //                 ["Python",Python],
+  //                 ["Java Script",JS],
+  //                 ["MySQL",Sql],
+  //                 ["Django",Django],
+  //                 ["React",React_],
+  //               ]     
+  // );
   const [interests] = useState(
               
                 [
@@ -45,6 +45,9 @@ function App() {
                   "Programming"
                 ]     
   );
+
+  //Data projects
+  
 
   // const [option, setOption] = useState("");
   // const [image, setImage] = useState("")
@@ -104,7 +107,7 @@ function App() {
             {
               <Main 
               // logo = {Logo} 
-              tech = {technologies} 
+              // tech = {technologies} 
               interests = {interests} 
               // handle={handleOption} 
               // option={option} 
