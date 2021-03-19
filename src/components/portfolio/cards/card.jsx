@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Card(props){
   
@@ -23,7 +24,7 @@ export default function Card(props){
             <div className="card-button">
                 
                 {
-                    props.value===1? <a href="/pokedex"><button>More</button></a>
+                    props.value===1? <Link to="/pokedex"><button>More</button></Link>
                     :<button>More</button>
                 
                 }

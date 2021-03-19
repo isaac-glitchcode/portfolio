@@ -8,6 +8,8 @@ export default function Header(props){
             <div className="banner">
                 <img src={pokebanner} alt="pokédex"/>
             </div> 
+            <a href="/">Return</a>
+            <a href="https://pokedex-app1.netlify.app">See Demo</a>
         </div>
     )
 }
