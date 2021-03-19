@@ -24,6 +24,7 @@ export default function Ecommerce(props){
             <Sketch/>
             <hr/>
             <h2>Galery</h2>
+            
             <Galery/>
         </div>
     )
