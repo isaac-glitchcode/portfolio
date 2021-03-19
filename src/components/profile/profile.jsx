@@ -23,7 +23,7 @@ export default function Profile(props){
                 <hr id="hr2"/>
                 <Social/>
                 <hr id="hr3"/>
-                <Button/>
+                {/* <Button/> */}
             </div>
 
             {/* <div className="content-logo">
