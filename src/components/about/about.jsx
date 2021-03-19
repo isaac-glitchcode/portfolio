@@ -33,8 +33,8 @@ export default function Preview(props){
             <div className="content-description">
                 <p id="description">
                     Hello! My name is Isaac. I am passionate about technology
-                    I like to research on topics such as artificial intelligence, data science, videogames, bioinformatics,
-                    and astrophysics among others.
+                    I like to research on topics such as artificial intelligence, data science, videogames,
+                    among others.
                     I consider myself quite curious as to why? of things.
                 </p>
             </div>
