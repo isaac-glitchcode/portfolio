@@ -1,17 +1,17 @@
 import React from 'react';
-import './css/pokedex.css';
+import './css/ecommerce.css';
 import Header from './header/header';
 import Description from './description/p_description';
 import Problem from './problematic/problematic';
 import Sketch from './sketch/sketch';
 import Galery from './galery/galery';
 
-export default function Pokedex(props){
+export default function Ecommerce(props){
     
     return(
-        <div id="pokedex">
+        <div id="ecommerce">
             <Header/>
-            <h2 id="title">Pokédex</h2>
+            <h2 id="title">E-commerce</h2>
 
             <Description/>
             <hr/>

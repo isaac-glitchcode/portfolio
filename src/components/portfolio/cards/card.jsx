@@ -29,7 +29,7 @@ export default function Card(props){
                 
                 }
                 {
-                    props.value===2? <a href="/ecomerce"><button>More</button></a>
+                    props.value===2? <Link to="/ecommerce"><button>More</button></Link>
                     :<></>
                 
                 }

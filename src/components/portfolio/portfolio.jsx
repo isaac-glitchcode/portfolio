@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Card from './cards/card';
 import Pokedex from './cards/img/Pokedex.jpg'
-import Ecomerce from './cards/img/Ecomerce.jpg'
+import Ecommerce from './cards/img/Ecomerce.jpg'
 import Chat from './cards/img/Chat.jpg'
 
 
@@ -24,8 +24,8 @@ export default function Portfolio(props){
                 [["Html",html],["Css",css],["Java Script",js],["React",reactjs]]
             ],
 
-            [   "E-comerce",
-                Ecomerce,  
+            [   "E-commerce",
+                Ecommerce,  
                 "E-commerce of sale of video games of varied genres for Xbox consoles and Play Station, where you can find several titles.",
                 [["Html",html],["Css",css],["React",reactjs],["Redux",redux]]
             ],
