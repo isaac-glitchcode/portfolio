@@ -2,5 +2,9 @@
     width: 15em;
     height: 15em;
     background: blue;
-    cursor: pointer;
+    border:2px solid #fff;
+    /* cursor: pointer; */
+}
+#extras-cards img{
+    width: 100%;
 }

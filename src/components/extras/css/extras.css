@@ -1,13 +1,17 @@
 #content-extras{
-    background: green;
+    /* background: green; */
     display:grid;
     grid-template-columns: repeat(auto-fit, 15rem);
     gap:2em;
     justify-content:center;
+    transition: all 0.4s linear;
+
 }
 
 @media only screen and (max-width:760px){
     #content-extras{
-        margin-bottom:2em;
+        margin:2em 0;
+    transition: all 0.4s linear;
+
     }
 }
