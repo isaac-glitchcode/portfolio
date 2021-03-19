@@ -7,6 +7,8 @@ import Main from './components/main/main';
 // import Git from './components/main/img/git.png';
 // import Link from './components/main/img/link.png';
 
+import Pokedex from './components/info_projects/template/template';
+
 // import Java from './components/about/img/java.png';
 // import Python from './components/about/img/python.png';
 // import JS from './components/about/img/js.png';
@@ -53,6 +55,8 @@ function App() {
   // const [image, setImage] = useState("")
   // const [show, setHidde] = useState(0);
   const [turnOn, setTurnOn] = useState(1);
+  const [turnTemplate, setTurnTemplate] = useState(0);
+
   
   // const [page] = useState({AboutPage});
   // const [style, setStyle] = React.useState({});
@@ -90,6 +94,10 @@ function App() {
     setTurnOn(value)
     // setTurnOn(!turnOn)
   }
+  const handlerTemplate = (value) => {
+    setTurnTemplate(value)
+    // setTurnOn(!turnOn)
+  }
   // setTimeout(() => {
   //       const style_show={opacity:1}
   //       setStyle(style_show)
@@ -117,18 +125,16 @@ function App() {
               // handleTurnOn={handlerLightBar}
               turn={turnOn}
               handler = {handler}
+
+              turnTemplate={turnTemplate}
+              handlerTemplate={handlerTemplate}
               />
             }
           </Route>
-          <Route path="/about">
-            {/* <AboutPage avatar={Avatar} fp={FingerPrint}/> */}
+          <Route path="/pokedex">
+            <Pokedex/>
           </Route>
-          {/* <Route exact path="/">
-            <Link to="/index" className="link"><Load logo = {Logo} handler = {handler} style={style}/></Link>
-          </Route>
-          <Route path="/index">
-            <Main menu = {menu} handle={handleOption} handlerPage={handlerPage} option={option} img={image} />
-          </Route> */}
+        
         </Switch> 
      </Router> 
     </div>

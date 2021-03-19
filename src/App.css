@@ -9,6 +9,11 @@
 @import url("./components/extras/extras-cards/css/extras-cards.css"); 
 
 
+@import url("./components/info_projects/template/css/template.css"); 
+
+
+
+
 
 body{
   font-family: "mont";

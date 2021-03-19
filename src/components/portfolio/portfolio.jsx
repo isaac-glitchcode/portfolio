@@ -8,7 +8,7 @@ import Chat from './cards/img/Chat.jpg'
 
 export default function Portfolio(props){
     const html ="https://www.shareicon.net/data/512x512/2016/05/06/760858_html_512x512.png";
-    const css ="https://lh3.googleusercontent.com/proxy/qWq2x_4HkPQmClS_5xX3qAAUt1nsu0lMdw7G-qv7QjBb5M-86xBPnhoa1gpbTe9h1eoBiby6PO_OZi_uQltcLrEnMI37kK-JRmlUHwdo4omzngWn708dtQ";
+    const css ="https://1.bp.blogspot.com/-ymcpXS3NVcs/WwAkW2eP6iI/AAAAAAAABag/titbfOHFwgQdEycGASYJedYsM2KtiTFwwCLcBGAs/s1600/Filetype%2B-%2BCSS.png";
     const js ="https://image.flaticon.com/icons/png/512/136/136530.png";
     const reactjs ="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png";
     const redux ="https://mattgreer.dev/_next/static/images/feature-f61395eb108bbaebd96b81b1697a20a4.svg";
@@ -36,6 +36,11 @@ export default function Portfolio(props){
             ]
         ]
     )
+
+    // const fn = (event) => {
+    //     console.log(event.target.value);
+    //     props.handlerTemplate(event.target.value);
+    // }
    
     return(
         <div id="portfolio">
@@ -45,6 +50,7 @@ export default function Portfolio(props){
                         
                         <Card
                             key={key}
+                            value={key+1}
                             name={item[0]}
                             image={item[1]}
                             description={item[2]}

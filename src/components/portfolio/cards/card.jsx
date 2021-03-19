@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Card(props){
+  
     return(
         <div id="card">
             <div className="card-name"><h1>{props.name}</h1></div>
@@ -20,7 +21,22 @@ export default function Card(props){
             </div>
             <hr/>
             <div className="card-button">
-                <button>More</button>
+                
+                {
+                    props.value===1? <a href="/pokedex"><button>More</button></a>
+                    :<button>More</button>
+                
+                }
+                {/* {
+                    props.value===2? <a href="/ecomerce"><button>More</button></a>
+                    :<button>More</button>
+                
+                }
+                {
+                    props.value===3? <a href="/chat"><button>More</button></a>
+                    :<button>More</button>
+                
+                } */}
             </div>
         </div>
     )

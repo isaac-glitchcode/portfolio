@@ -26,7 +26,10 @@ export default function Main(props){
             {
                 props.turn===2?
                     <div className="work-space">
-                        <Portfolio/>
+                        <Portfolio
+                            
+                             handlerTemplate={props.handlerTemplate}
+                        />
                     </div>
                 :
                     <div></div>
@@ -34,7 +37,9 @@ export default function Main(props){
             {
                 props.turn===3?
                     <div className="work-space">
-                        <Extras/>
+                        <Extras
+                           
+                        />
                     </div>
                 :
                     <div></div>
