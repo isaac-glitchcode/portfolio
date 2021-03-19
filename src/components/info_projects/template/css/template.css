@@ -1,6 +1,9 @@
 #template{
     color:#fff;
 }
+#template #title{
+    margin-top:2em;
+}
 #template hr{
     margin:2em;
 }

@@ -10,7 +10,8 @@ export default function Template(props){
     return(
         <div id="template">
             <Header/>
-            
+            <h2 id="title">Pokédex</h2>
+
             <Description/>
             <hr/>
             <h2>Description</h2>

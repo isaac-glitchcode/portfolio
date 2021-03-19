@@ -7,12 +7,13 @@ export default function Problem(props){
             
             
                 <p>
-                    La app cuenta con una interfaz en al que se muestran 
-                    sprites estaticos de cada pokémon, así como una barra para filtrar
-                    y otra de busqueda. 
-                    Al dar click sobre algún pokémon, se mostrará la imagen animada 
-                    y su respectivo sonido según los videojuegos, de la misma manera 
-                    sus estadisticas, nombre y su tipo.
+                    This app has an interface that shows static sprites 
+                    of each Pokémon, as well as a bar to filter and 
+                    another to search.  
+                    When you click on a Pokémon, the animated image 
+                    and its respective sound will be displayed according 
+                    to the video games, in the same way its name, type and 
+                    statistics.
 
                 </p>
                 <img src={img} alt="pokédex"/>

@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fit, 32em);
     justify-content: center;
     align-items: center;
-    padding-top:9em;
+    padding-top:3em;
     transition:all .1s ease-in-out;
 
 }
