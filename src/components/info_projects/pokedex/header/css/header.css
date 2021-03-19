@@ -23,23 +23,19 @@
 
 /*Responsive*/
 @media only screen and (max-width:968px){
-    /* #header .btn{
-        background-color: rgba(255, 255, 255, 0.76);
-        width: 100%;
-        display: flex;
-        transform: translateY(-1.5rem)
+    #header .btn{
+       width: 6em;
+       font-size: 12px;
+
     }
-    #header .btn>a{
-        background-color: #1788d3;
-        color:#fff;
-        margin:0 1em;
-        text-decoration: none;
-        padding:0;
-        border-radius: 2px;
-    } */
+    
    
   }
 @media only screen and (max-width:360px){
-    
+    #header .btn{
+        width: 6em;
+        font-size: 8px;
+ 
+     }
     
   }

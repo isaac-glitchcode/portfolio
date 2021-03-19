@@ -1,14 +1,15 @@
 import React from 'react';
-import Header from '../pokedex/header/header';
-import Description from '../pokedex/description/p_description';
-import Problem from '../pokedex/problematic/problematic';
-import Sketch from '../pokedex/sketch/sketch';
-import Galery from '../pokedex/galery/galery';
+import './css/pokedex.css';
+import Header from './header/header';
+import Description from './description/p_description';
+import Problem from './problematic/problematic';
+import Sketch from './sketch/sketch';
+import Galery from './galery/galery';
 
 export default function Template(props){
     
     return(
-        <div id="template">
+        <div id="pokedex">
             <Header/>
             <h2 id="title">Pokédex</h2>
 

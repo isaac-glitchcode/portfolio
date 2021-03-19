@@ -25,15 +25,15 @@ export default function Card(props){
                 
                 {
                     props.value===1? <Link to="/pokedex"><button>More</button></Link>
-                    :<button>More</button>
-                
-                }
-                {/* {
-                    props.value===2? <a href="/ecomerce"><button>More</button></a>
-                    :<button>More</button>
+                    :<></>
                 
                 }
                 {
+                    props.value===2? <a href="/ecomerce"><button>More</button></a>
+                    :<></>
+                
+                }
+                {/* {
                     props.value===3? <a href="/chat"><button>More</button></a>
                     :<button>More</button>
                 

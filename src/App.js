@@ -7,7 +7,7 @@ import Main from './components/main/main';
 // import Git from './components/main/img/git.png';
 // import Link from './components/main/img/link.png';
 
-import Pokedex from './components/info_projects/template/template';
+import Pokedex from './components/info_projects/pokedex/pokedex';
 
 // import Java from './components/about/img/java.png';
 // import Python from './components/about/img/python.png';

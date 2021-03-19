@@ -1,12 +1,12 @@
-#template{
+#pokedex{
     color:#fff;
 }
-#template #title{
+#pokedex #title{
     margin-top:2em;
 }
-#template hr{
+#pokedex hr{
     margin:2em;
 }
-#template h2{
+#pokedex h2{
     text-align: center;
 }
