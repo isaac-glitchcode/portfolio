@@ -33,11 +33,11 @@ export default function Card(props){
                     :<></>
                 
                 }
-                {/* {
-                    props.value===3? <a href="/chat"><button>More</button></a>
-                    :<button>More</button>
+                {
+                    props.value===3? <Link to="/chat"><button>More</button></Link>
+                    :<></>
                 
-                } */}
+                }
             </div>
         </div>
     )

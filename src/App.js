@@ -9,6 +9,7 @@ import Main from './components/main/main';
 
 import Pokedex from './components/info_projects/pokedex/pokedex';
 import Ecommerce from './components/info_projects/ecommerce/ecommerce';
+import Chat from './components/info_projects/chat/chat';
 
 // import Java from './components/about/img/java.png';
 // import Python from './components/about/img/python.png';
@@ -137,6 +138,9 @@ function App() {
           </Route>
           <Route path="/ecommerce">
             <Ecommerce/>
+          </Route>
+          <Route path="/chat">
+            <Chat/>
           </Route>
         
         </Switch> 
