@@ -3,7 +3,7 @@ import Logo from './logo/logo';
 import Info from './information/information';
 import Interests from './interests/interests';
 import Social from './socialmedia/social_media';
-import Button from './button/button';
+// import Button from './button/button';
 // import audio from './sound/selection.mp3';
 
 export default function Profile(props){
