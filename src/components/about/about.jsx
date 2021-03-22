@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Content from './content/content';
-import Java from './content/img/java.png';
+import Node from './content/img/node.png';
 import Python from './content/img/python.png';
 import JS from './content/img/js.png';
 import Sql from './content/img/sql.png';
@@ -19,7 +19,7 @@ export default function Preview(props){
     const [technologies] = useState(
               
                 [
-                  ["Java",Java],
+                  ["Node",Node],
                   ["Python",Python],
                   ["Java Script",JS],
                   ["MySQL",Sql],
