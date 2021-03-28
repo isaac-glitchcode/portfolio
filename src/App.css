@@ -27,11 +27,15 @@ body{
 @font-face {
   font-family: "tech";
   src: url("./fonts/TECHNO CAPTURE.ttf");
-} 
+} /*
 @font-face {
   font-family: "moon";
   src: url("./fonts/Moon Bold.otf");
-} 
+} */
+@font-face {
+	font-family: "moon";
+	src: url("./fonts/HelveticaNeueLTStdBd.otf");
+}
 @font-face {
   font-family: "mont";
   src: url("./fonts/Montserrat-Regular.ttf");
